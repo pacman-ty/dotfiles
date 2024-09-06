@@ -96,7 +96,7 @@ set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 
 " PLUGINS ---------------------------------------------------------------- {{{
 
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.vim/plugged') 
 
     Plug 'dense-analysis/ale'
     Plug 'preservim/nerdtree'
