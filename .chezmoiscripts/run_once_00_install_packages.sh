@@ -21,7 +21,7 @@ elif [ -f "/etc/arch-release" ]; then
     'https://mirror.cachyos.org/repo/x86_64/cachyos/pacman-7.0.0.r7.g1f38429-1-x86_64.pkg.tar.zst'
 
   # Add the CachyOS repositories to the pacman config file
-  cat $HOME/.local/share/chezmoi/.chezmoiscripts >>/etc/pacman.conf
+  cat $HOME/.local/share/chezmoi/cachy_repos.txt >>/etc/pacman.conf
 
   # Update your system with CachyOS packages
   sudo pacman -Syu
@@ -43,6 +43,7 @@ sudo pacman -S cachyos-extra-v3/btop
 sudo pacman -S cachyos-extra-v3/fastfetch
 sudo pacman -S extra/discord
 sudo pacman -S extra/signal-desktop
+sudo pacman -S cachyos-extra-v3/zed
 
 echo -e "Installing Paru now. Process takes some extra steps \n"
 
