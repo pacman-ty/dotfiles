@@ -44,6 +44,8 @@ sudo pacman -S cachyos-extra-v3/fastfetch
 sudo pacman -S extra/discord
 sudo pacman -S extra/signal-desktop
 sudo pacman -S cachyos-extra-v3/zed
+sudo pacman -S cachyos-extra-v3/code
+sudo pacman -S cachyos-extra-v3/thunar
 
 echo -e "Installing Paru now. Process takes some extra steps \n"
 
